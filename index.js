@@ -145,8 +145,10 @@ function executeRating(stars) {
 executeRating(ratingStars);
 
 function ratingReceived(rating){
-    yourOrder.innerHTML = ''
-    document.getElementById('rating').innerHTML = `<p id="t-you">Thank you for your rating of ${rating} stars</p>`
+        setTimeout(function(){
+            yourOrder.innerHTML = ''
+            document.getElementById('rating').innerHTML = `<p id="t-you">Thank you for your rating of ${rating} stars</p>`
+    }, 1500)
 }
 
 function getMenu(){
