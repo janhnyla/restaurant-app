@@ -17,12 +17,12 @@ h2{
     text-align: center;
 }
 
-main {
+main{
     width: 600px;
-    height: 170px;
     left: 0px;
     top: 0px;
     margin: auto;
+    border: 2px solid black;
 }
 
 #header{
@@ -262,3 +262,9 @@ margin-right: 2px;
     color: #dabd18b2;
 }
 
+@media only screen and (max-width: 600px) {
+#main,
+#header{
+    width: 100%;
+}
+  }
