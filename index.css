@@ -64,7 +64,7 @@ grid-template-columns: auto auto auto;
 }
 
 #order-item-name{
-    width: 50%;
+    width: 70%;
     height: 25px;
     line-height: 25px;
     float: left;
@@ -77,7 +77,7 @@ grid-template-columns: auto auto auto;
 }
 
 #order-item-prize{
-    width: 50%;
+    width: 30%;
     height: 25px;
     line-height: 25px;
     float: left;
