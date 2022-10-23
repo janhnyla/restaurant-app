@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+} 
+
+h1{
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 17px;
+    color: #000000;
+    text-align: center;
+}
+
+h2{
+    margin-top: 10px;
+    text-align: center;
+}
+
+main {
+    width: 600px;
+    height: 170px;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+}
+
+#header{
+   display: block;
+   width: 600px;
+   height: 170px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 40px;
+}
+
+#menu-items 
+{
+width: 500px;    
+margin: auto;
+display: grid;
+grid-template-columns: auto auto auto;
+}
+
+#grid-item{
+    margin-top: 20px;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+#your-order{
+    display: none;
+    width: 450px;    
+    margin: auto;
+    }
+
+#discount{
+    text-align: center;
+    color: black;
+    background-color: yellow;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Verdana';
+}
+
+#order-item-name{
+    width: 50%;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    font-family: 'Smythe';
+    font-weight: 400;
+    font-size: 28px;
+    font-style: normal;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+#order-item-prize{
+    width: 50%;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0E0E0E;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+span.emoji{
+    font-size: 70px;
+}
+
+p.menu-ingrediens{
+    font-family: 'smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8B8B8B;
+}
+
+p.menu-prizes{
+    font-family: 'smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.menu-item{
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.add-item{
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1.5px solid #DEDEDE;
+    background-color: white;
+    cursor: pointer;
+}
+
+.remove-item{
+    margin: auto;
+    border: none;
+    background-color: white;
+    color: #BBBBBB;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.complete-order{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background: #16DB99;
+    border: none;
+    border-radius: 3px;
+    width: 508px;
+    height: 60px;
+    left: 46px;
+    top: 1048px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+#your-card{
+    display: none;
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    top: 80px;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    filter: drop-shadow(5.18654px 5.18654px 255.437px rgba(0, 0, 0, 0.5));
+}
+
+#card-form-container{
+    margin: auto;
+    width: 90%;
+}
+
+input{
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid #16DB99;
+    padding: 10px;
+    width: 85%;
+    height: 40px;
+    border-radius: 3px;
+}
+
+input:focus{
+    background-color: #16DB99;
+    font-weight: 800;
+    font-style: 'Veredana';
+}
+
+#close-payment-container{
+text-align: right;
+margin-top: 2px;
+margin-right: 2px;
+}
+
+.close-payment-btn {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid #16DB99;
+    color: #16DB99;
+    border-radius: 50%;
+  }
+
+.close-payment-btn:hover,
+.close-payment-btn:active{
+    color: red;
+    cursor: pointer;
+}
+
+  .card-submit{
+    width: 85%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border: 1px solid #16DB99;
+    background-color: #16DB99;
+    color: white;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 31px;
+    cursor: pointer;
+  }
+
+  #thank-you{
+    background-color: #ECFDF5;
+    width: 450px;
+    margin: auto;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  #t-you{
+    font-family: 'Smythe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    color: #065F46;
+  }
+
+#rating{
+    display:none;
+    width: 180px;
+    background-color: #ECFDF5;
+    width: 450px;
+    margin: auto;
+    padding: 40px 0;
+    text-align: center;
+}
+ 
+.rating__star{
+    cursor: pointer;
+    color: #dabd18b2;
+}
+
